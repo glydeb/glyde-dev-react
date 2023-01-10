@@ -12,6 +12,7 @@
 img.photo {
   height: 320px;
   pointer-events: none;
+  border-radius: 10px 10px 0 0;
 }
 
 .App-link {

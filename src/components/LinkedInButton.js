@@ -4,12 +4,10 @@ import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 export default function LinkedInButton() {
     return (
-        <div className="linkedin-button">
-            <a href="https://www.linkedin.com/in/glydewell-burdick-a9260b114/">
-                <button>
-                    <FontAwesomeIcon icon={brands('linkedin')} /> LinkedIn
-                </button>
+        <button className="linkedin-button">
+            <a href="https://www.linkedin.com/in/glydewell-burdick-a9260b114/" className="linkedin-button-text">
+                <FontAwesomeIcon icon={brands('linkedin')} />&nbsp;&nbsp;LinkedIn
             </a>
-        </div>
+        </button>
     )
 }

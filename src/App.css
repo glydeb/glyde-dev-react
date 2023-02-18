@@ -9,6 +9,10 @@
   overflow: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 img.photo {
   height: 320px;
   pointer-events: none;
@@ -72,11 +76,11 @@ div.button-container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 17px;
   margin: 10px 0 10px 0;
 }
 
-div.email-button {
+button.email-button {
 
   box-sizing: border-box;
 
@@ -98,4 +102,49 @@ div.email-button {
   /* shadow/sm */
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
+}
+
+a.email-button-text {
+  /* gray/700 */
+  color: #374151;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+button.linkedin-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  
+  width: 115px;
+  
+  background: #5093E2;
+  
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+a.linkedin-button-text {
+  /* gray/700 */
+  color: #FFFFFF;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+span.link-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  padding-right: 8px;
 }

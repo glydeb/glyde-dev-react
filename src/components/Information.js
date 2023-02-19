@@ -7,7 +7,7 @@ export default function Information() {
         <div className="information">
             <h1 className="dev-name">Glydewell Burdick</h1>
             <h5 className="dev-title">Full Stack Web Developer</h5>
-            <p className="dev-site"><a className="dev-link" href="https://www.glyde.dev">glyde.dev</a></p>
+            <p className="dev-site"><a className="dev-link" href="https://www.glyde.dev">www.glyde.dev</a></p>
             <div className="button-container">
                 <EmailButton />
                 <LinkedInButton />

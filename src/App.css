@@ -1,8 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  
   max-width: 550px;
   background: #23252C;
-  padding-bottom: 25px;
+  padding: 25px 0 25px 0;
 }
 
 .photo-container {

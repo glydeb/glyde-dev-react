@@ -15,14 +15,14 @@ export default function Information() {
             <div className="dev-info">
                 <h3 className="dev-info-heading">About</h3>
                 <p className="dev-info-text">
-                    Looking to make a difference in the world using Rails, Python or Node.js.
-                    Also SQL or MongoDB. On AWS, Heroku, or Google Cloud.  Ok, Azure too.
-                    Would rather write tests than create landmines for myself and successors.
+                    Improving the world using SQL, Ruby, Python, JavaScript, HTML, CSS, Rails, Angular, Node & React. 
+                    Building on AWS, Google Cloud, and Heroku.
+                    Testing to ensure my creations stay maintainable and extendable.
                 </p>
                 <h3 className="dev-info-heading">Interests</h3>
                 <p className="dev-info-text">
                     Politics, home automation, 3d printing, AI/ML, grilling, dancing,
-                    and strategy games.
+                    strategy games, and travel.
                 </p>
             </div>
         </div>

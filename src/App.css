@@ -8,8 +8,7 @@
   padding: 25px 0 25px 0;
 }
 
-.photo-container {
-  padding-top: 45px;
+header {
   overflow: hidden;
 }
 
@@ -161,12 +160,12 @@ span.link-text {
   padding-right: 8px;
 }
 
-footer {
+div.footer-links {
+  margin: 0 auto;
+  max-width: 320px;
   background: #161619;
   border-radius: 0px 0px 10px 10px;
   height: 45px;
-  width: 320px;
-  margin: 0 115px 20px 115px;
   padding-top: 20px;
 }
 

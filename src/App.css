@@ -27,7 +27,8 @@ img.photo {
 }
 
 div.information {
-  margin: 0 115px 0 115px;
+  width: 320px;
+  margin: 0 auto;
   font-family: 'Inter', sans-serif;
 }
 
